@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'
+        integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous'></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+
+</head>
+
+
+<body>
+    <div class="container">
+        <form action="">
+        <h1><strong>Friend Survey.</strong></h1>
+        <hr>
+        <br>
+
+    <div class="panel-heading">
+        <h2 class="panel-title"><strong>About You</strong></h2>
+        </div>
+        <br>
+
+        <h4>Name(Required)</h4>
+        <input type="text" id="name" class="form-control" required>
+
+            <h4>Please provide a photo of yourself(Link image Required)</h4>
+            <input type="text" id="photo" class="form-control" required="">
+            <br>
+
+            <hr>
+            <h4><strong>Question 1</strong></h4>
+            <h5>You believe in self-discipline.</h5>
+            <select data-placeholder="" class="chosen-select" id="Question1">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <h4><strong>Question 2</strong></h4>
+            <h5>You like spending time with people you don't know.</h5>
+            <select data-placeholder="" class="chosen-select" id="Question2">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <h4><strong>Question 3</strong></h4>
+            <h5>You don't mind staying up late to do a project.</h5>
+            <select data-placeholder="" class="chosen-select" id="Question3">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <h4><strong>Question 4</strong></h4>
+            <h5>You rarely get carried away by fantasies and ideas.</h5>
+            <select data-placeholder="" class="chosen-select" id="Question4">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <h4><strong>Question 5</strong></h4>
+            <h5>You consider yourself to be more practical than artistic.</h5>
+            <select data-placeholder="" class="chosen-select" id="Question5">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <h4><strong>Question 6</strong></h4>
+            <h5>Peoples feelings matter all the time.</h5>
+            <select data-placeholder="" class="chosen-select" id="Question6">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <h4><strong>Question 7</strong></h4>
+            <h5>When you get overwhelmed you don't like being bothered</h5>
+            <select data-placeholder="" class="chosen-select" id="Question7">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <h4><strong>Question 8</strong></h4>
+            <h5>You prefer Front End design over Back End scripting.</h5>
+            <select data-placeholder="" class="chosen-select" id="Question8">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <h4><strong>Question 9</strong></h4>
+            <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
+            <select data-placeholder="" class="chosen-select" id="Question9">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <h4><strong>Question 10</strong></h4>
+            <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
+            <select data-placeholder="" class="chosen-select" id="Question10">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            
+            <button type="button" class="btn btn-info btn-lg" id="myBtn">Submit</button>
+        </form>
+        <hr>
+
+        <footer>
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a> | <a
+                        href="https://github.com/Devanirvin/Friendly-Finder-1.git">GitHub
+                        Repo</a></p>
+            </div>
+        </footer>
+    </div>
+
+</div>
+<script type="text/javascript" src="survey.js"></script>
+</body>
+
+</html>
